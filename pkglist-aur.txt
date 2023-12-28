@@ -1,0 +1,12 @@
+1password
+brave-bin
+chwall
+envycontrol
+feishu-bin
+gitkraken
+kubecm-git
+notion-app-electron
+onedriver
+postman-bin
+visual-studio-code-bin
+woeusb
