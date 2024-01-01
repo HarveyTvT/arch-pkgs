@@ -1,7 +1,12 @@
+com.github.GradienceTeam.Gradience
 com.github.jkotra.eovpn
 com.github.wwmm.easyeffects
 com.spotify.Client
 com.valvesoftware.Steam
+dev.geopjr.Collision
 net.xmind.XMind
 org.fedoraproject.MediaWriter
+org.gnome.Boxes
+org.gnome.Lollypop
+org.gnome.Todo
 org.mozilla.firefox

@@ -1,12 +1,17 @@
 1password
+adw-gtk3
+backintime
+bibata-cursor-theme
 brave-bin
 chwall
 envycontrol
 feishu-bin
 gitkraken
+ibus-theme-tools
 kubecm-git
 notion-app-electron
 onedriver
 postman-bin
 visual-studio-code-bin
 woeusb
+xcursor-breeze
