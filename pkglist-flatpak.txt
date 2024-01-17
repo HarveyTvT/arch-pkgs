@@ -1,5 +1,6 @@
 com.github.GradienceTeam.Gradience
 com.github.jkotra.eovpn
+com.github.liferooter.textpieces
 com.github.wwmm.easyeffects
 com.spotify.Client
 com.valvesoftware.Steam
