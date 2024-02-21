@@ -1,7 +1,8 @@
 com.github.GradienceTeam.Gradience
 com.github.jkotra.eovpn
-com.github.johnfactotum.Foliate
 com.github.liferooter.textpieces
+com.github.wwmm.easyeffects
+com.github.johnfactotum.Foliate
 com.github.unrud.VideoDownloader
 com.obsproject.Studio
 com.redis.RedisInsight

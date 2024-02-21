@@ -11,9 +11,12 @@ bluez-utils
 btop
 btrfs-progs
 clang
+dbeaver
+dkms
 efibootmgr
 epiphany
 evince
+firefox
 foliate
 gdb
 gdm
@@ -43,7 +46,6 @@ gnome-shell
 gnome-shell-extensions
 gnome-software
 gnome-system-monitor
-gnome-terminal
 gnome-text-editor
 gnome-tour
 gnome-tweaks
@@ -51,6 +53,7 @@ gnome-user-docs
 gnome-user-share
 gnome-weather
 gnu-netcat
+gparted
 grilo-plugins
 gst-plugin-pipewire
 gvfs
@@ -85,15 +88,15 @@ malcontent
 nano
 nautilus
 neofetch
+network-manager-applet
 networkmanager
 networkmanager-openvpn
-noto-fonts
 noto-fonts-cjk
 noto-fonts-extra
 nvidia-dkms
 nvidia-prime
 nvidia-settings
-openssh
+openrgb
 orca
 papirus-icon-theme
 pipewire
@@ -125,6 +128,7 @@ wqy-zenhei
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
 xdg-utils
+xorg-xinit
 xorg-xrandr
 yelp
 zram-generator
