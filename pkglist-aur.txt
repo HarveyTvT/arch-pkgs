@@ -4,17 +4,14 @@ backintime
 bibata-cursor-theme
 charles
 chwall
-envycontrol
 feishu-bin
 gitkraken
 google-chrome
 ibus-theme-tools
-jdk-temurin
 kubecm-git
 notion-app-electron
 onedriver
 postman-bin
-ttf-ms-win11-auto
 visual-studio-code-bin
 whitesur-gtk-theme
 whitesur-icon-theme
