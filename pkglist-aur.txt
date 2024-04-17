@@ -7,13 +7,14 @@ chwall
 feishu-bin
 gitkraken
 google-chrome
+hw-probe
 ibus-theme-tools
 kubecm-git
 notion-app-electron
 onedriver
 postman-bin
+rog-control-center
 visual-studio-code-bin
 whitesur-gtk-theme
 whitesur-icon-theme
 woeusb
-xcursor-breeze
