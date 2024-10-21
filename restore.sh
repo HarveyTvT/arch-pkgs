@@ -34,10 +34,6 @@ sudo chmod a+x /usr/local/bin/telepresence
 
 # golang config
 cd ~/Downloads
-wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
-tar -zvxf go1.20.14.linux-amd64.tar.gz
-sudo mv go /opt/go@1.20.14
-go env -w GOROOT=/opt/go@1.20.14
 go env -w GOPATH=$HOME/go
 go env -w GOPROXY=https://goproxy.cn,direct
 go env -w CGO_ENABLED="0"
@@ -45,13 +41,6 @@ go env -w GOSUMDB=off
 go env -w GO111MODULE=on
 git config --global --add url."git@g.echo.tech:".insteadOf "http://g.echo.tech/"
 git config --global --add url."git@g.echo.tech:".insteadOf "https://g.echo.tech/"
-
-# onedriver
-export MOUNTPOINT=~/OneDrive
-export SERVICE_NAME=$(systemd-escape --template onedriver@.service --path $MOUNTPOINT)
-cp /usr/lib/systemd/user/onedriver@.service $HOME/.config/systemd/user/$SERVICE_NAME
-systemctl --user enable $SERVICE_NAME
-systemctl --user start $SERVICE_NAME
 
 # zsh
 sudo pacman -S --needed zsh
@@ -61,9 +50,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git config --global --add oh-my-zsh.hide-dirty 1
 git config --global oh-my-zsh.hide-info 1
 
+export ZSH_CUSTOM=$HOME/.oh-my-zsh
+rm -rf $ZSH_CUSTOM/plugins/zsh-autosuggestions
+rm -rf $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+rm -rf $ZSH_CUSTOM/plugins/fast-syntax-highlighting
+rm -rf $ZSH_CUSTOM/plugins/zsh-autocomplete
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $ZSH_CUSTOM/plugins/fast-syntax-highlighting
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 
 sed -i "s/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)/g" ~/.zshrc
+
