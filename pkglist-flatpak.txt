@@ -1,0 +1,7 @@
+com.github.wwmm.easyeffects
+com.sweetscape.ZeroOneZeroEditor
+com.todoist.Todoist
+net.werwolv.ImHex
+org.fedoraproject.MediaWriter
+org.telegram.desktop
+page.codeberg.libre_menu_editor.LibreMenuEditor
