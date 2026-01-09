@@ -1,3 +1,4 @@
+com.bilingify.readest
 com.github.wwmm.easyeffects
 com.sweetscape.ZeroOneZeroEditor
 com.todoist.Todoist
