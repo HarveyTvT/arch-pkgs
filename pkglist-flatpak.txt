@@ -1,8 +1,12 @@
-com.bilingify.readest
+com.github.hluk.copyq
 com.github.wwmm.easyeffects
+com.obsproject.Studio
 com.sweetscape.ZeroOneZeroEditor
 com.todoist.Todoist
+io.podman_desktop.PodmanDesktop
+net.kuribo64.melonDS
 net.werwolv.ImHex
 org.fedoraproject.MediaWriter
 org.telegram.desktop
+org.zotero.Zotero
 page.codeberg.libre_menu_editor.LibreMenuEditor
